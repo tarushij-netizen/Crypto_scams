@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d1" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d0" for="node" attr.name="node_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="FTX">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Celsius">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="OneCoin">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Centra">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Sam">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Sol">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Sam Bankman">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Trump">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Fried">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="##ram">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="SBF">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="BTC">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Bitcoin">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="##X">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Solana">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="##TX">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Coinbase">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="SOL">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="##ius">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Alex">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Led">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Do Kwon">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="##shin">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Sato">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Bin">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="SEC">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="USDC">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Nexo">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="##u">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="##tis">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="##h Kumbhan">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="##vor">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="##ja Ignatov">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Onecoin">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="MLM">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="FBI">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="BitConnect">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Terra">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Cry">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="DJ Khaled">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="##ather">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="May">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Din">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="##D">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Mon">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Can">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Roger Ver">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Vitalik Buteri">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="Logan Paul">
+      <data key="d0">PERSON</data>
+    </node>
+    <node id="BCH">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Safemoon">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="ETH">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="ICO">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="AirToken">
+      <data key="d0">ORG</data>
+    </node>
+    <node id="Bitconnect">
+      <data key="d0">ORG</data>
+    </node>
+    <edge source="FTX" target="Sam">
+      <data key="d1">47</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="Sol">
+      <data key="d1">29</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="Sam Bankman">
+      <data key="d1">26</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="Trump">
+      <data key="d1">25</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="Fried">
+      <data key="d1">24</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="##ram">
+      <data key="d1">12</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="SBF">
+      <data key="d1">225</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="FTX">
+      <data key="d1">202</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="BTC">
+      <data key="d1">190</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="Bitcoin">
+      <data key="d1">146</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="##X">
+      <data key="d1">116</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="Solana">
+      <data key="d1">107</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="##TX">
+      <data key="d1">98</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="Coinbase">
+      <data key="d1">78</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="FTX" target="SOL">
+      <data key="d1">64</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="##ius">
+      <data key="d1">22</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="Alex">
+      <data key="d1">17</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="Led">
+      <data key="d1">15</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="Do Kwon">
+      <data key="d1">10</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="##shin">
+      <data key="d1">8</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="Sato">
+      <data key="d1">6</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="Bin">
+      <data key="d1">6</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="BTC">
+      <data key="d1">109</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="Bitcoin">
+      <data key="d1">97</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="Celsius">
+      <data key="d1">70</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="Coinbase">
+      <data key="d1">50</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="SEC">
+      <data key="d1">31</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="USDC">
+      <data key="d1">27</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Celsius" target="Nexo">
+      <data key="d1">27</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="##u">
+      <data key="d1">5</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="##tis">
+      <data key="d1">3</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="##h Kumbhan">
+      <data key="d1">2</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="##vor">
+      <data key="d1">2</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="Sato">
+      <data key="d1">2</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="##ja Ignatov">
+      <data key="d1">2</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="OneCoin">
+      <data key="d1">22</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="Onecoin">
+      <data key="d1">9</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="MLM">
+      <data key="d1">8</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="BTC">
+      <data key="d1">5</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="FBI">
+      <data key="d1">4</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="Bitcoin">
+      <data key="d1">4</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="SBF">
+      <data key="d1">4</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="BitConnect">
+      <data key="d1">4</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="Terra">
+      <data key="d1">4</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="OneCoin" target="Cry">
+      <data key="d1">4</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="DJ Khaled">
+      <data key="d1">3</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="##ather">
+      <data key="d1">3</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="May">
+      <data key="d1">2</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="Din">
+      <data key="d1">2</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="##D">
+      <data key="d1">2</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="Mon">
+      <data key="d1">1</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="Can">
+      <data key="d1">1</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="Roger Ver">
+      <data key="d1">1</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="Vitalik Buteri">
+      <data key="d1">1</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="Logan Paul">
+      <data key="d1">1</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="Bitcoin">
+      <data key="d1">7</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="Centra">
+      <data key="d1">7</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="BCH">
+      <data key="d1">6</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="Safemoon">
+      <data key="d1">6</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="SEC">
+      <data key="d1">5</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="ETH">
+      <data key="d1">4</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="BTC">
+      <data key="d1">4</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="ICO">
+      <data key="d1">4</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="AirToken">
+      <data key="d1">3</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+    <edge source="Centra" target="Bitconnect">
+      <data key="d1">3</data>
+      <data key="d2">mentioned_in</data>
+    </edge>
+  </graph>
+</graphml>

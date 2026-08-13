@@ -1,0 +1,97 @@
+======================================================================
+BCFL PROTOTYPE — rotating pseudonyms + masked updates + blockchain
+======================================================================
+
+True model weights (unknown to the aggregator): [ 1.5 -2.   0.5  3.  -1. ]
+Clients: 5 | Rounds: 25
+
+Round  1 | block #1 mined (nonce=5751) | avg-loss=11.80462
+Round  2 | block #2 mined (nonce=7575) | avg-loss=8.52179
+Round  3 | block #3 mined (nonce=2135) | avg-loss=6.16710
+Round  4 | block #4 mined (nonce=2751) | avg-loss=4.47416
+Round  5 | block #5 mined (nonce=2024) | avg-loss=3.25413
+Round  6 | block #6 mined (nonce=6879) | avg-loss=2.37285
+Round  7 | block #7 mined (nonce=1377) | avg-loss=1.73477
+Round  8 | block #8 mined (nonce=5649) | avg-loss=1.27171
+Round  9 | block #9 mined (nonce=13468) | avg-loss=0.93489
+Round 10 | block #10 mined (nonce=1312) | avg-loss=0.68936
+Round 11 | block #11 mined (nonce=846) | avg-loss=0.50996
+Round 12 | block #12 mined (nonce=2247) | avg-loss=0.37860
+Round 13 | block #13 mined (nonce=5541) | avg-loss=0.28222
+Round 14 | block #14 mined (nonce=2318) | avg-loss=0.21134
+Round 15 | block #15 mined (nonce=1166) | avg-loss=0.15912
+Round 16 | block #16 mined (nonce=1716) | avg-loss=0.12057
+Round 17 | block #17 mined (nonce=5432) | avg-loss=0.09205
+Round 18 | block #18 mined (nonce=2463) | avg-loss=0.07092
+Round 19 | block #19 mined (nonce=6474) | avg-loss=0.05523
+Round 20 | block #20 mined (nonce=1935) | avg-loss=0.04356
+Round 21 | block #21 mined (nonce=4964) | avg-loss=0.03486
+Round 22 | block #22 mined (nonce=5715) | avg-loss=0.02838
+Round 23 | block #23 mined (nonce=235) | avg-loss=0.02353
+Round 24 | block #24 mined (nonce=3264) | avg-loss=0.01990
+Round 25 | block #25 mined (nonce=4080) | avg-loss=0.01718
+
+======================================================================
+PROOF 1 — Chain integrity
+======================================================================
+Before tampering: Chain valid — all blocks intact and correctly linked
+After tampering block 3, client 0's update: Block 3: data tampered (stored hash != recomputed hash)
+
+======================================================================
+PROOF 2 — Identity-layer unlinkability (rotating pseudonyms)
+======================================================================
+Client 0's on-chain address across all rounds:
+  round 1: 83223cecb158e9a5997eda531b5705d54b0bb7c94f2be57526a2fbf0371f6641
+  round 2: f5f7685f4ba858d1f03ba953ff81cb75a9ac76d45f465c343a8b7816567dc59b
+  round 3: ac92fd71a1fc9a2e824492456aa0b4187e60043d31280c24333eb3ed74bbfd14
+  round 4: a5ef249ed0c364d31f5ee7bd375f9cce5694bedae9209767272d83e056246a38
+  round 5: a65adb94f6e35aeff41f8529213021d30a55d78bbe6c4be3cc70ec94286b217d
+  round 6: 7da41b3bc93e116d75ee5145adf78669631f8bdb92b7da173829deb368c9f0b9
+  round 7: 2af274abc1183e7baa0c9b016b3723f7c82b8a89055fbdd8ee1ca662198bd040
+  round 8: 1a178258ac4e8f72d2043e8c865d637a6e1d1d9018433cca9343a11cd9b2b736
+  round 9: cd2ae587778f7efb2c8692d8eee485014532efea1b3a1e94a75e0be8053b0244
+  round 10: bd486372c1ae358517fc80da12041ff0ec9d2e5724c91d4fe9b10273a3eb081a
+  round 11: 9c29e844ae00331c4a1c6e6daac7407720e87c4066f6dfbed8d4d04f49623c14
+  round 12: 0a27be0a69d2028b882ccb829227d08e4996691dd993eb10cbfc7cc908851941
+  round 13: cd6c467830699cf6dfc4534d99ecd2bba995ecc6b3414630a4bc3604c41b0275
+  round 14: 011ef185543c89644fb080d902708b040d8cd49bbf11f583172429195b839d58
+  round 15: 85bbe5bfba04a81cd8e582e0f7e52d574807c46c160ca3fb77fe0399008e856d
+  round 16: 0499dd5d5ca24fccebd0336270bd638261fa2171db7f296df4e4a2eefb5994b8
+  round 17: 6fc634b3bbfca0cb77b3cf959bf74154a75bb84448e3ab6cc2bcb5ef1a5e7914
+  round 18: ef77bdc2a3954dad3dde0251c60143007b643e4ae0c9cf19c95d98159bd63ef2
+  round 19: b270045b7bf85c37d6352faf26d14a3f2644ffc0ca7b680ded9a5d22f6e0c194
+  round 20: 34f682e53453a8e9fcd15d398b38bde60444547430947b534c657b98e04669f7
+  round 21: 4ac306a77d17c8c2f3a04bae2701a23a2ddd2d88884ccab16cce72f00385e6dd
+  round 22: bd0c0d189cc53a5c8b0e4bae164fa185733251447d796835217ecee491ae8da0
+  round 23: 592490b46123ffb57a9bcddcc2cdd62595434aed3da7ceb1adedfd806e807005
+  round 24: a84e96d6ba75f8502aaf29113cc005e6c344904b6fcc3c618eefbed7b83fe418
+  round 25: 19b10331781ec6bc6c1920be9194f0f4b80b8e75ff4323db1f3282e1e2c2ae9a
+
+Bit-level Hamming distance between consecutive addresses: [122, 137, 139, 131, 129, 123, 126, 141, 134, 129, 126, 129, 132, 115, 130, 135, 120, 132, 138, 121, 134, 133, 128, 142]
+(32-byte hash = 256 bits; ~128 expected if addresses are unrelated/random -> observed avg = 130.2)
+
+But the client itself can still recognize its own past addresses
+(self-linkability via the view key, needed for reputation tracking):
+  25/25 of client 0's own addresses verified as its own.
+
+Cross-check: client 1 tries to claim client 0's addresses (should fail):
+  25/25 correctly rejected by client 1.
+
+======================================================================
+PROOF 3 — Content-layer privacy + correct aggregation
+======================================================================
+Round 3, client 0:
+  Real local gradient (NEVER put on-chain): [-0.0581  1.0148 -0.3849 -1.8333  1.026 ]
+  On-chain masked value (what everyone sees): [ 0.8355  2.0602 -0.2055 -2.0277  0.5327]
+  L2 distance between them: 1.4848  (large -> individual value is hidden)
+
+  Sum of REAL gradients this round:   [ -4.751428   6.889001  -0.852143 -11.324126   3.664941]
+  Sum of MASKED values this round:    [ -4.751428   6.889001  -0.852143 -11.324126   3.664941]
+  Difference: 1.26e-15  (≈0 -> aggregation is exact despite masking)
+
+======================================================================
+PROOF 4 — Model still trains correctly end-to-end
+======================================================================
+Learned weights : [ 1.446 -1.954  0.459  2.959 -0.977]
+True weights    : [ 1.5 -2.   0.5  3.  -1. ]
+L2 error        : 0.0951
